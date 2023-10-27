@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Deveb's</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+    <header>
+        <a href="#">Deveb's</a>
+    </header>
+
+    <div class="products">
+        <div class="product">
+            <img src="sem-foto.jpg" alt="Produto 1">
+            <h2>Camisa Deveb's </h2>
+            <p>Em breve </p>
+            <p class="price">R$79.99</p>
+            <button onclick="addToCart(1)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="product">
+            <img src="sem-foto.jpg" alt="Produto 2">
+            <h2>Short Deveb's</h2>
+            <p>Em breve</p>
+            <p class="price">R$64.79</p>
+            <button onclick="addToCart(2)">Adicionar ao Carrinho</button>
+        </div>
+    <div class="product">
+        <img src="sem-foto.jpg" alt="Produto 3">
+        <h2>Acessórios Deveb's</h2>
+        <p>Em breve</p>
+        <p class="price">R$94.99</p>
+        <button onclick="addToCart(3)">Adicionar ao Carrinho</button>
+    </div>
+    <div class="product">
+        <img src="sem-foto.jpg" alt="Produto 4">
+        <h2>Adesivos da Deveb's</h2>
+        <p>Em breve</p>
+        <p class="price">R$15.45</p>
+        <button onclick="addToCart(4)">Adicionar ao Carrinho</button>
+    </div>
+
+
+    <div class="cart">
+        <h2>Carrinho de Compras</h2>
+        <ul id="cart-items">
+        </ul>
+        <p  >Total: R$<span id="cart-total">0.00</span></p> 
+        <button id="Limpar" onclick="clearCart()">Limpar Carrinho</button>
+    </div>
+
+    <script src="lik.js"></script>
+</body>
+</html>
